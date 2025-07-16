@@ -24,7 +24,7 @@ function App() {
       </div>
 
       <div>
-        <Quote/>
+        <Quote />
       </div>
       <div className="about">
         <About />
