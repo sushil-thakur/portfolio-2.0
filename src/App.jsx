@@ -4,6 +4,7 @@ import Waves from "./Components/wave/Waves.jsx";
 import About from "./Components/pages/About.jsx";
 import TextPressureSection from "./Components/section.jsx";
 import Section_creative from "./Components/section_creative.jsx";
+import Grid from "./Components/Grid/Grid.jsx";
 function App() {
   return (
     <div className="overflow-hidden">
@@ -15,7 +16,11 @@ function App() {
         <Waves />
       </div>
       <div>
+        <div className="grid">
+          <Grid />
+        </div>
         <Section_creative />
+        <Grid />
       </div>
       {/* <div className="about">
         <About />
