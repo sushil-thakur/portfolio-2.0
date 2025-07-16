@@ -38,7 +38,7 @@
 
 /* ORIGIN title style */
 .origin-title {
-  font-size: 20rem;
+  font-size: 23rem;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -53,27 +53,27 @@
 /* Responsive ORIGIN */
 @media (min-width: 640px) {
   .origin-title {
-    font-size: 20rem;
+    font-size: 23rem;
   }
 }
 @media (min-width: 768px) {
   .origin-title {
-    font-size: 12rem;
+    font-size: 18rem;
   }
 }
 @media (min-width: 1024px) {
   .origin-title {
-    font-size: 20rem;
+    font-size: 23rem;
   }
 }
 @media (min-width: 1280px) {
   .origin-title {
-    font-size: 16rem;
+    font-size: 22rem;
   }
 }
 @media (min-width: 1536px) {
   .origin-title {
-    font-size: 18rem;
+    font-size: 23rem;
   }
 }
 
@@ -83,7 +83,7 @@
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 0 0 auto; /* Sets right margin to auto, pushing the element to the right */
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 /* Vertical Bento Card for Portfolio Images */

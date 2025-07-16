@@ -42,9 +42,7 @@ export default function About() {
               showMobileWarning={false}
               showTooltip={false}
               displayOverlayContent={true}
-              overlayContent={
-                <p className="tilted-card-demo-text">PORTFOLIO</p>
-              }
+             
             />
           </div>
         </div>
@@ -54,24 +52,25 @@ export default function About() {
           <h2 className="who-i-am-title gradient-text-dark">WHO I AM</h2>
 
           {/* ScrollFloat card for description */}
-          <div className="scroll-card-container">
-            <ScrollFloat
-              animationDuration={1}
-              ease="back.inOut(2)"
-              scrollStart="center bottom+=50%"
-              scrollEnd="bottom bottom-=40%"
-              stagger={0.03}
-            >
-              <div className="description-card">
-                <p className="description-text">
-                  I started with curiosity, not code. From designing magazine
-                  covers to building neural networks, my work reflects both
-                  logic and emotion. I believe the best ideas come from
-                  collisions — between disciplines, perspectives, and
-                  possibilities.
-                </p>
+          <div className="w-full h-screen flex items-right justify-center bg-white text-black">
+            <div className="text-center max-w-4xl px-8">
+              <div style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
+                <ScrollFloat 
+                  containerClassName="mb-8"
+                  textClassName="text-6xl md:text-4xl font-bold leading-tight tracking-wide"
+                >
+             I started with curiosity, not code. From designing magazine covers to building neural networks, my work reflects both 
+             logic and emotion. I believe the best ideas come from collisions — between disciplines, perspectives, and possibilities.
+                </ScrollFloat>
+                
+                <ScrollFloat 
+                  containerClassName="mt-8"
+                  textClassName="text-2xl md:text-3xl opacity-80"
+                >
+                
+                </ScrollFloat>
               </div>
-            </ScrollFloat>
+            </div>
           </div>
         </div>
       </div>
