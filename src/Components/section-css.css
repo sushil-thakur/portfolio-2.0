@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+
+.Creative {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20rem;
+  line-height: 0.9;
+  margin: 0;
+}
+.developer {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0;
+  align-self: flex-start;
+  margin-top: 2rem;
+}
+
+/* Mobile (320px - 639px) */
+@media (max-width: 639px) {
+  .Creative {
+    font-size: 4rem;
+  }
+  .developer {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Small tablets (640px - 767px) */
+@media (min-width: 640px) and (max-width: 767px) {
+  .Creative {
+    font-size: 6rem;
+  }
+  .developer {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Creative {
+    font-size: 10rem;
+  }
+  .developer {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+/* Large tablets / Small laptops (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .Creative {
+    font-size: 14rem;
+  }
+  .developer {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+}
+
+/* Large laptops (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .Creative {
+    font-size: 18rem;
+  }
+  .developer {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+}
+
+/* Extra large screens (1536px+) */
+@media (min-width: 1536px) {
+  .Creative {
+    font-size: 20rem;
+  }
+  .developer {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+}
