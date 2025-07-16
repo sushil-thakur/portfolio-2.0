@@ -15,7 +15,7 @@ export default function Navbar() {
         fontFamily: "Futura, -apple-system, BlinkMacSystemFont, sans-serif",
       }}
     >
-      <div className="max-w-7xl sm:px-6 lg:px-8">
+      <div className="max-w-7xl sm:px-6 lg:px-8 w-full">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
