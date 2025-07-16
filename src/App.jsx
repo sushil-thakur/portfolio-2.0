@@ -16,9 +16,8 @@ function App() {
         <Waves />
       </div>
       <div>
-        <div className="grid">
-          <Grid />
-        </div>
+        <Grid />
+
         <Section_creative />
         <Grid />
       </div>
