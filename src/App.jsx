@@ -8,6 +8,8 @@ import Grid from "./Components/Grid/Grid.jsx";
 import Quote from "./Components/Quote/Quote.jsx";
 import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
 import FallingText from "./Components/FallingText/FallingText.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+
 function App() {
   const items = [
     {
@@ -54,6 +56,7 @@ function App() {
       <div>
         <Quote />
       </div>
+      
       <div className="about">
         <About />
       </div>
@@ -85,6 +88,9 @@ function App() {
           fontSize="1rem"
           mouseConstraintStiffness={0.9}
         />
+      </div>
+      <div >
+        <Contact />
       </div>
     </div>
   );
