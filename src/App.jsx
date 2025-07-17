@@ -9,6 +9,7 @@ import Quote from "./Components/Quote/Quote.jsx";
 import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
 import FallingText from "./Components/FallingText/FallingText.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
+import Cursor from "./Components/Cursor/Cursor.jsx";
 
 function App() {
   const items = [
@@ -97,6 +98,7 @@ function App() {
       <div id="contacts">
         <Contact />
       </div>
+      <Cursor/>
     </div>
   );
 }
