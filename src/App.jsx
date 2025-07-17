@@ -7,12 +7,13 @@ import Section_creative from "./Components/section_creative.jsx";
 import Grid from "./Components/Grid/Grid.jsx";
 import Quote from "./Components/Quote/Quote.jsx";
 import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
+import FallingText from "./Components/FallingText/FallingText.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 
 function App() {
   const items = [
     {
-      image: "https://picsum.photos/300/300?grayscale",
+      image: "/images/try.png",
       link: "https://google.com/",
       title: "Item 1",
       description: "This is pretty cool, right?",
@@ -59,13 +60,34 @@ function App() {
       <div className="about">
         <About />
       </div>
+
+      <div className="w-full h-[20vh] m-5 ">
+        <TextPressureSection />
+      </div>
+
       <div className="projects">
         <div style={{ height: "100vh", position: "relative" }}>
           <InfiniteMenu items={items} />
         </div>
       </div>
-      <div className="w-full h-[350px] m-5 ">
-        <TextPressureSection />
+      <div className="h-[40vh] sm:h-[70vh] lg:h-[40vh] px-4 py-6 sm:px-8 lg:px-16 flex flex-col justify-center">
+        <h1
+          style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-center sm:text-left"
+        >
+          My Tech Stack
+        </h1>
+        <FallingText
+          text={`My tech stack spans Java, JavaScript, TypeScript, R, LaTeX · React, Redux, Tailwind CSS, GSAP, Express.js, Flask, AWS, Docker, Git, Postman,  MongoDB, MySQL, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV, Pandas, NumPy, Matplotlib, CUDA , Figma, Adobe Illustrator and Apache Spark.`}
+          highlightWords={["React"]}
+          highlightClass="highlighted"
+          trigger="click"
+          backgroundColor="transparent"
+          wireframes={false}
+          gravity={0.56}
+          fontSize="1rem"
+          mouseConstraintStiffness={0.9}
+        />
       </div>
       <div >
         <Contact />
