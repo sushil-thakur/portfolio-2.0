@@ -39,7 +39,7 @@ export default function About() {
               containerWidth="100%"
               imageHeight="120%"
               imageWidth="100%"
-              rotateAmplitude={8}
+              rotateAmplitude={5}
               scaleOnHover={1.05}
               showMobileWarning={false}
               showTooltip={false}
@@ -70,12 +70,42 @@ export default function About() {
                   scrollEnd="bottom top+=20%"
                   stagger={0.05}
                 >
-                  I started with curiosity, not code. From designing magazine
+                  " I started with curiosity, not code. From designing magazine
                   covers to building neural networks, my work reflects both
                   logic and emotion. I believe creativity thrives at the
                   intersection of art and technology. Every project is a chance
-                  to blend thoughtful design with purposeful engineering.
+                  to blend thoughtful design with purposeful engineering."
                 </ScrollReveal>
+
+                {/* Download CV Button */}
+                <div className="mt-8 text-center sm:text-left">
+                  <button
+                    onClick={() => {
+                      // Replace with your actual CV file path
+                      const link = document.createElement("a");
+                      link.href = "/cv/Anuj_CV.pdf"; // Put your CV in public/cv/ folder
+                      link.download = "Anuj_CV.pdf";
+                      link.click();
+                    }}
+                    className="inline-flex items-center px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                    style={{ fontFamily: "Bebas Neue, sans-serif" }}
+                  >
+                    <svg
+                      className="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                    Download CV
+                  </button>
+                </div>
               </div>
             </div>
           </div>
