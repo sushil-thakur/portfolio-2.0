@@ -128,7 +128,7 @@ export default function Section_creative() {
   return (
     <div
       ref={containerRef}
-      className="w-full min-h-screen h-[80vh] flex flex-col justify-center items-start px-8"
+      className="w-full py-20 flex flex-col justify-start items-start px-8"
     >
       <div className="flex items-baseline gap-8">
         <h1

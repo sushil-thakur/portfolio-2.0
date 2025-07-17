@@ -6,38 +6,12 @@ import TextPressureSection from "./Components/section.jsx";
 import Section_creative from "./Components/section_creative.jsx";
 import Grid from "./Components/Grid/Grid.jsx";
 import Quote from "./Components/Quote/Quote.jsx";
-import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
+// import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
 import FallingText from "./Components/FallingText/FallingText.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Cursor from "./Components/Cursor/Cursor.jsx";
-import ClickSpark from "./Components/ClickSpark/ClickSpark.jsx";
+import Projects from "./Components/pages/projects.jsx";
 function App() {
-  const items = [
-    {
-      image: "/images/try.png",
-      link: "https://google.com/",
-      title: "Item 1",
-      description: "This is pretty cool, right?",
-    },
-    {
-      image: "https://picsum.photos/400/400?grayscale",
-      link: "https://google.com/",
-      title: "Item 2",
-      description: "This is pretty cool, right?",
-    },
-    {
-      image: "https://picsum.photos/500/500?grayscale",
-      link: "https://google.com/",
-      title: "Item 3",
-      description: "This is pretty cool, right?",
-    },
-    {
-      image: "https://picsum.photos/600/600?grayscale",
-      link: "https://google.com/",
-      title: "Item 4",
-      description: "This is pretty cool, right?",
-    },
-  ];
   return (
     <div className="overflow-hidden">
       <Cursor />
@@ -89,12 +63,14 @@ function App() {
       <div className="w-full h-[20vh] m-5 ">
         <TextPressureSection />
       </div>
-
       <div className="projects" id="works">
+        <Projects />
+      </div>
+      {/* <div className="projects" id="works">
         <div style={{ height: "100vh", position: "relative" }}>
           <InfiniteMenu items={items} />
         </div>
-      </div>
+      </div> */}
 
       <div id="contacts">
         <Contact />

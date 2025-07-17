@@ -1,221 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
 
-.about-container {
-  font-family: "Bebas Neue", cursive;
-}
-
-/* Bento Card Container */
-.bento-card-container {
-  width: 280px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 60px;
-  margin-top: 80px;
-}
-
-/*  for WHO I AM text */
-.gradient-text-dark {
-  background: linear-gradient(
-    90deg,
-    #9ca3af 0%,
-    #8b91a0 20%,
-    #7a8088 35%,
-    #5a5d63 50%,
-    #3a3c3f 65%,
-    #2a2c2e 80%,
-    #000000 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-  background-size: 100% 100%;
-  background-position: left center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  position: relative;
-}
-
-/* ORIGIN title style */
-.origin-title {
-  font-size: 10rem; /* Base size */
-  font-weight: 400;
-  line-height: 0.9;
-  letter-spacing: 0.02em;
-  margin: 0;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  white-space: normal;
-  width: fit-content;
-}
-
-/* Responsive scaling */
-@media (max-width: 639px) {
-  .origin-title {
-    font-size: 5rem;
-  }
-}
-@media (min-width: 640px) and (max-width: 767px) {
-  .origin-title {
-    font-size: 7rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .origin-title {
-    font-size: 10rem;
-  }
-}
-@media (min-width: 1024px) {
-  .origin-title {
-    font-size: 20rem;
-  }
-}
-
-/* WHO I AM title style */
-.who-i-am-title {
-  font-size: 3.5rem;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin: 0 0 0 auto; /* Sets right margin to auto, pushing the element to the right */
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-/* Responsive WHO I AM */
-@media (min-width: 640px) {
-  .who-i-am-title {
-    font-size: 4rem;
-  }
-}
-@media (min-width: 768px) {
-  .who-i-am-title {
-    font-size: 4.5rem;
-  }
-}
-@media (min-width: 1024px) {
-  .who-i-am-title {
-    font-size: 5.5rem;
-  }
-}
-@media (min-width: 1280px) {
-  .who-i-am-title {
-    font-size: 6.5rem;
-  }
-}
-@media (min-width: 1536px) {
-  .who-i-am-title {
-    font-size: 7rem;
-  }
-}
-
-.about-container {
-  font-family: "Bebas Neue", cursive;
-  min-height: 100vh;
-  background-color: white;
-  padding: 120px 30px 50px 30px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  overflow: visible;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* Responsive container */
-@media (min-width: 768px) {
-  .about-container {
-    padding: 150px 40px 50px 40px;
-  }
-}
-@media (min-width: 1024px) {
-  .about-container {
-    padding: 180px 50px 50px 50px;
-  }
-}
-@media (min-width: 1280px) {
-  .about-container {
-    padding: 200px 60px 50px 60px;
-  }
-}
-
-.left-side {
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 60%;
-  margin-top: -200px;
-  gap: 40px;
-}
-
-.right-side {
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 180px;
-  max-width: 40%;
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 1023px) {
-  .about-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 60px;
-  }
-  .left-side,
-  .right-side {
-    max-width: 100%;
-    margin-top: 0;
-  }
-  .left-side {
-    align-items: center;
-  }
-  .bento-card-container {
-    margin-left: 0;
-    margin-top: 40px;
-    justify-content: center;
-  }
-  .scroll-card-container {
-    max-width: 100%;
-    margin-top: 20px;
-  }
-}
-
-/* Bento Card Container */
-.bento-card-container {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 20px;
-  margin-top: 100px;
-}
-
-/* Vertical Bento Card for Portfolio Images */
-.bento-card {
-  position: relative;
-  width: 580px;
-  height: 400px;
-  background: #f8f9fa;
-  border: 2px solid #e9ecef;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  overflow: hidden;
-  transform-origin: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* grey to black gradient for ORIGIN */
+/* Gradient animation for ORIGIN title */
 .origin-title.gradient-text {
   background: linear-gradient(45deg, #000 30%, #444 70%, #000 90%);
   -webkit-background-clip: text;
@@ -240,12 +25,78 @@
   }
 }
 
-/* Ensure gradient inheritance for SplitText characters */
-.origin-title.gradient-text *,
-.gradient-text-dark * {
+/* Ensure gradient is inherited by child elements from SplitText */
+.origin-title.gradient-text * {
   background: inherit;
   -webkit-background-clip: inherit;
   -webkit-text-fill-color: inherit;
   background-clip: inherit;
   color: inherit;
+}
+
+/* Base style for the ORIGIN title */
+.origin-title {
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 20px 0;
+  white-space: normal;
+  width: fit-content;
+  font-size: 5rem; /* Mobile-first base size */
+}
+
+/* Responsive scaling for ORIGIN title */
+@media (min-width: 640px) {
+  .origin-title {
+    font-size: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  .origin-title {
+    font-size: 10rem;
+  }
+}
+@media (min-width: 1024px) {
+  .origin-title {
+    font-size: 20rem;
+  }
+}
+
+/* Base style for the WHO I AM title */
+.who-i-am-title {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  padding: 20px 0;
+  white-space: nowrap;
+  width: fit-content;
+  font-size: 3.5rem; /* Mobile-first base size */
+}
+
+/* Responsive scaling for WHO I AM title */
+@media (min-width: 640px) {
+  .who-i-am-title {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .who-i-am-title {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .who-i-am-title {
+    font-size: 5.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .who-i-am-title {
+    font-size: 6.5rem;
+  }
+}
+@media (min-width: 1536px) {
+  .who-i-am-title {
+    font-size: 7rem;
+  }
 }

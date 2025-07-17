@@ -11,7 +11,7 @@ export default function About() {
   return (
     <>
       {/* ORIGIN Section */}
-      <div className="origin-section w-full min-h-[50vh] flex items-center justify-center bg-white my-0 mx-auto px-4 sm:px-0">
+      <div className="origin-section w-full py-16 px-4 flex justify-center bg-white">
         <SplitText
           text="ORIGIN"
           className="origin-title gradient-text"
@@ -28,11 +28,11 @@ export default function About() {
 
       {/* Main content - Stacks on mobile, side-by-side on larger screens */}
       <div className="container flex flex-col md:flex-row px-4 md:pl-8 lg:pl-16 gap-4 md:gap-8">
-        {/* Portfolio Image Section */}
+        {/* Portfolio Image Section (Left Side) */}
         <div className="portfolio-section w-full md:min-w-[40vw] lg:min-w-[50vw] min-h-[60vh] md:h-screen flex items-center justify-center bg-white">
-          <div className="bento-card-container w-full max-w-lg md:max-w-none">
+          <div className="w-full max-w-lg md:max-w-none">
             <TiltedCard
-              imageSrc="https://images.squarespace-cdn.com/content/v1/523747a5e4b0bfc1675bd7b4/1485794243330-LAWXWC3LS5DF60YKHOJG/unnamed.jpg?format=1500w"
+              imageSrc="/myphoto.jpg"
               altText="Portfolio Image"
               captionText="Portfolio Work"
               containerHeight="400px"
@@ -59,11 +59,11 @@ export default function About() {
 
           {/* Description Section */}
           <div className="description-section w-full min-h-[40vh] md:min-h-[60vh] flex items-center justify-center bg-white text-black">
-            <div className="text-center sm:text-left max-w-4xl px-4 sm:px-8">
-              <div style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+            <div className="text-center sm:text-left max-w-4xl py-4 px-4 sm:px-8 mb-4">
+              <div style={{ fontFamily: "Futura, Bebas Neue, " }}>
                 <ScrollReveal
-                  containerClassName="mb-8"
-                  textClassName="text-xl sm:text-2xl md:text-3xl font-bold leading-tight tracking-wide transition-all duration-1000 ease-out"
+                  containerClassName="mt-5"
+                  textClassName="text-xl sm:text-2xl md:text-2xl font-light leading-tight tracking-wide transition-all duration-1000 ease-out"
                   animationDuration={1.2}
                   ease="power2.out"
                   scrollStart="top bottom-=20%"
@@ -77,16 +77,11 @@ export default function About() {
                   to blend thoughtful design with purposeful engineering."
                 </ScrollReveal>
 
-                {/* Download CV Button */}
+                {/* Download CV Button (changed to an <a> tag) */}
                 <div className="mt-8 text-center sm:text-left">
-                  <button
-                    onClick={() => {
-                      // Replace with your actual CV file path
-                      const link = document.createElement("a");
-                      link.href = "/cv/Anuj_CV.pdf"; // Put your CV in public/cv/ folder
-                      link.download = "Anuj_CV.pdf";
-                      link.click();
-                    }}
+                  <a
+                    href="/cv/Anuj_CV.pdf" // Path to your CV in the public folder
+                    download="Anuj_CV.pdf" // The filename for the user
                     className="inline-flex items-center px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                     style={{ fontFamily: "Bebas Neue, sans-serif" }}
                   >
@@ -104,7 +99,7 @@ export default function About() {
                       />
                     </svg>
                     Download CV
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
