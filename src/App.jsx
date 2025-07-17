@@ -7,6 +7,7 @@ import Section_creative from "./Components/section_creative.jsx";
 import Grid from "./Components/Grid/Grid.jsx";
 import Quote from "./Components/Quote/Quote.jsx";
 import InfiniteMenu from "./Components/InfiniteMenu/InfiniteMenu.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
 
 function App() {
   const items = [
@@ -54,6 +55,7 @@ function App() {
       <div>
         <Quote />
       </div>
+      
       <div className="about">
         <About />
       </div>
@@ -64,6 +66,9 @@ function App() {
       </div>
       <div className="w-full h-[350px] m-5 ">
         <TextPressureSection />
+      </div>
+      <div >
+        <Contact />
       </div>
     </div>
   );
