@@ -13,7 +13,7 @@ const Quote = () => {
             duration={0.8}
             threshold={0.3}
           >
-            Still learning, still building...
+            " Still learning, still building...
           </ScrollFloat>
 
           <ScrollFloat
@@ -33,7 +33,7 @@ const Quote = () => {
             duration={0.8}
             threshold={0.3}
           >
-            because I missed a semicolon
+            because I missed a semicolon "
           </ScrollFloat>
         </div>
       </div>

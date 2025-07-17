@@ -38,9 +38,9 @@
 
 /* ORIGIN title style */
 .origin-title {
-  font-size: 23rem;
+  font-size: 10rem; /* Base size */
   font-weight: 400;
-  line-height: 1;
+  line-height: 0.9;
   letter-spacing: 0.02em;
   margin: 0;
   padding: 20px 0;
@@ -50,30 +50,25 @@
   width: fit-content;
 }
 
-/* Responsive ORIGIN */
-@media (min-width: 640px) {
+/* Responsive scaling */
+@media (max-width: 639px) {
   .origin-title {
-    font-size: 23rem;
+    font-size: 5rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) and (max-width: 767px) {
   .origin-title {
-    font-size: 18rem;
+    font-size: 7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .origin-title {
+    font-size: 10rem;
   }
 }
 @media (min-width: 1024px) {
   .origin-title {
-    font-size: 23rem;
-  }
-}
-@media (min-width: 1280px) {
-  .origin-title {
-    font-size: 22rem;
-  }
-}
-@media (min-width: 1536px) {
-  .origin-title {
-    font-size: 23rem;
+    font-size: 20rem;
   }
 }
 
@@ -222,25 +217,27 @@
 
 /* grey to black gradient for ORIGIN */
 .origin-title.gradient-text {
-  background: linear-gradient(
-    90deg,
-    #9ca3af 0%,
-    #8b91a0 20%,
-    #7a8088 35%,
-    #5a5d63 50%,
-    #3a3c3f 65%,
-    #2a2c2e 80%,
-    #000000 100%
-  );
+  background: linear-gradient(45deg, #000 30%, #444 70%, #000 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  background-size: 100% 100%;
+  background-size: 200% 100%;
+  animation: gradient-shift 8s ease infinite;
   background-position: left center;
   background-repeat: no-repeat;
   display: inline-block;
   position: relative;
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
 /* Ensure gradient inheritance for SplitText characters */

@@ -4,14 +4,18 @@ export default {
   theme: {
     extend: {
       animation: {
-        'marquee': 'marquee 30s linear infinite',
+        marquee: "marquee 30s linear infinite",
       },
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(100vw)' },
-          '100%': { transform: 'translateX(-100%)' },
-        }
-      }
+          "0%": { transform: "translateX(100vw)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+
+      fontFamily: {
+        bebas: ["Bebas Neue", "Futura"],
+      },
     },
   },
   plugins: [],

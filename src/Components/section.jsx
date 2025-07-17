@@ -5,7 +5,7 @@ export default function TextPressureSection() {
   return (
     <div style={{ position: "relative", height: "300px", overflow: "hidden" }}>
       <TextPressure
-        text="Creative AI Enthusiast!"
+        text="My Awesome Projects"
         flex={true}
         alpha={false}
         stroke={false}
