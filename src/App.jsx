@@ -56,20 +56,13 @@ function App() {
       <div>
         <Quote />
       </div>
-      
-      <div className="about">
+      <Grid />
+
+      <div className="about" id="about">
         <About />
       </div>
+      <Grid />
 
-      <div className="w-full h-[20vh] m-5 ">
-        <TextPressureSection />
-      </div>
-
-      <div className="projects">
-        <div style={{ height: "100vh", position: "relative" }}>
-          <InfiniteMenu items={items} />
-        </div>
-      </div>
       <div className="h-[40vh] sm:h-[70vh] lg:h-[40vh] px-4 py-6 sm:px-8 lg:px-16 flex flex-col justify-center">
         <h1
           style={{ fontFamily: "Bebas Neue, sans-serif" }}
@@ -89,7 +82,19 @@ function App() {
           mouseConstraintStiffness={0.9}
         />
       </div>
-      <div >
+      <Grid />
+
+      <div className="w-full h-[20vh] m-5 ">
+        <TextPressureSection />
+      </div>
+
+      <div className="projects" id="works">
+        <div style={{ height: "100vh", position: "relative" }}>
+          <InfiniteMenu items={items} />
+        </div>
+      </div>
+
+      <div id="contacts">
         <Contact />
       </div>
     </div>

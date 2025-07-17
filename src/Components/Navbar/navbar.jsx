@@ -8,9 +8,17 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsOpen(false); // Close mobile menu after click
+  };
+
   return (
     <nav
-      className="bg-white shadow-lg"
+      className="bg-white shadow-lg fixed top-0 left-0 w-full z-50"
       style={{
         fontFamily: "Futura, -apple-system, BlinkMacSystemFont, sans-serif",
       }}
@@ -25,24 +33,24 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a
-                href="#about"
-                className="text-gray-700 px-3 py-2 text-sm font-light"
+              <button
+                onClick={() => scrollToSection("about")}
+                className="text-gray-700 px-3 py-2 text-sm font-light hover:text-gray-900 transition-colors"
               >
                 About
-              </a>
-              <a
-                href="#works"
-                className="text-gray-700 px-3 py-2 text-sm font-light"
+              </button>
+              <button
+                onClick={() => scrollToSection("works")}
+                className="text-gray-700 px-3 py-2 text-sm font-light hover:text-gray-900 transition-colors"
               >
                 Works
-              </a>
-              <a
-                href="#contacts"
-                className="text-gray-700 px-3 py-2 text-sm font-light"
+              </button>
+              <button
+                onClick={() => scrollToSection("contacts")}
+                className="text-gray-700 px-3 py-2 text-sm font-light hover:text-gray-900 transition-colors"
               >
                 Contacts
-              </a>
+              </button>
             </div>
           </div>
 
@@ -66,27 +74,24 @@ export default function Navbar() {
         } overflow-hidden`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 border-t border-gray-200">
-          <a
-            href="#about"
-            className="text-gray-700 block px-3 py-2 text-base font-light"
-            onClick={toggleMenu}
+          <button
+            onClick={() => scrollToSection("about")}
+            className="text-gray-700 block px-3 py-2 text-base font-light w-full text-left"
           >
             About
-          </a>
-          <a
-            href="#works"
-            className="text-gray-700 block px-3 py-2 text-base font-light"
-            onClick={toggleMenu}
+          </button>
+          <button
+            onClick={() => scrollToSection("works")}
+            className="text-gray-700 block px-3 py-2 text-base font-light w-full text-left"
           >
             Works
-          </a>
-          <a
-            href="#contacts"
-            className="text-gray-700 block px-3 py-2 text-base font-light"
-            onClick={toggleMenu}
+          </button>
+          <button
+            onClick={() => scrollToSection("contacts")}
+            className="text-gray-700 block px-3 py-2 text-base font-light w-full text-left"
           >
             Contacts
-          </a>
+          </button>
         </div>
       </div>
     </nav>

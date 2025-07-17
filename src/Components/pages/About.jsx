@@ -35,9 +35,9 @@ export default function About() {
               imageSrc="https://images.squarespace-cdn.com/content/v1/523747a5e4b0bfc1675bd7b4/1485794243330-LAWXWC3LS5DF60YKHOJG/unnamed.jpg?format=1500w"
               altText="Portfolio Image"
               captionText="Portfolio Work"
-              containerHeight="300px"
+              containerHeight="400px"
               containerWidth="100%"
-              imageHeight="100%"
+              imageHeight="120%"
               imageWidth="100%"
               rotateAmplitude={8}
               scaleOnHover={1.05}
