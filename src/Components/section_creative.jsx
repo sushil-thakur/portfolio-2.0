@@ -135,14 +135,14 @@ export default function Section_creative() {
           ref={creativeRef}
           className="Creative cursor-pointer gradient-text-dark"
         >
-          CREATIVE
+          REACT
         </h1>
         <h2 ref={developerRef} className="developer cursor-pointer">
-          DEVELOPER &&
+         CRAFTER &&
         </h2>
       </div>
       <h1 ref={enthusiastRef} className="Creative cursor-pointer">
-        AI ENTHUSIAST
+        UI ENTHUSIAST
       </h1>
     </div>
   );

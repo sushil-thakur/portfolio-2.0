@@ -47,7 +47,7 @@ function App() {
           My Tech Stack
         </h1>
         <FallingText
-          text={`My tech stack spans Java, JavaScript, TypeScript, R, LaTeX · React, Redux, Tailwind CSS, GSAP, Express.js, Flask, AWS, Docker, Git, Postman,  MongoDB, MySQL, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV, Pandas, NumPy, Matplotlib, CUDA , Figma, Adobe Illustrator and Apache Spark.`}
+          text={`My tech stack spans JavaScript,  LaTeX · React,  Tailwind CSS, GSAP, Express.js,  Docker, Git, Postman,  MongoDB, MySQL, TensorFlow, PyTorch,  Pandas, NumPy, Matplotlib, Figma,Drizzle and Canva .`}
           highlightWords={["React", "PyTorch", "OpenCV"]}
           highlightClass="highlighted"
           trigger="click"

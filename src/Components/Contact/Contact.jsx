@@ -11,7 +11,7 @@ const Contact = () => {
     setSubmitMessage("");
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "49ffd318-4ac8-4e27-ada0-9d0336a21fd3"); // Replace with your actual access key
+    formData.append("access_key", "7c187539-97f1-4135-a9f1-e4de43325f5f"); // Replace with your actual access key
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -82,7 +82,7 @@ const Contact = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full px-8">
                 {/* GitHub */}
                 <a
-                  href="https://github.com/anuz505"
+                  href="https://github.com/sushil-thakur"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative overflow-hidden flex flex-col items-center p-6 bg-white border-2 border-black rounded-xl hover:bg-black hover:text-white transition-all duration-500 hover:scale-105 shadow-lg transform hover:rotate-1"
@@ -102,12 +102,12 @@ const Contact = () => {
                     GitHub
                   </h3>
                   <p className="text-gray-600 group-hover:text-yellow-300 relative z-10">
-                    @anuz505
+                    @Sushil-thakur
                   </p>
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/anuj-bhandari-75a530198/"
+                  href="https://www.linkedin.com/in/sushil-thakur-a28616332/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative overflow-hidden flex flex-col items-center p-6 bg-white text-black border-2 border-black rounded-xl hover:bg-black hover:text-white transition-all duration-500 hover:scale-105 shadow-lg transform hover:-rotate-1"
@@ -127,7 +127,7 @@ const Contact = () => {
                     LinkedIn
                   </h3>
                   <p className="text-gray-600 group-hover:text-yellow-300 relative z-10">
-                    Anuj Bhandari
+                    Sushil Thakur
                   </p>
                 </a>
 
@@ -157,7 +157,7 @@ const Contact = () => {
                     Email
                   </h3>
                   <p className="text-gray-600 group-hover:text-yellow-300 relative z-10">
-                    anuzb50@gmail.com
+                    sushilt2059@gmail.com
                   </p>
                 </a>
               </div>

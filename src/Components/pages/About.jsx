@@ -32,7 +32,7 @@ export default function About() {
         <div className="portfolio-section w-full md:min-w-[40vw] lg:min-w-[50vw] min-h-[60vh] md:h-screen flex items-center justify-center bg-white">
           <div className="w-full max-w-lg md:max-w-none">
             <TiltedCard
-              imageSrc="/myphoto.jpg"
+              imageSrc="public\photo.png"
               altText="Portfolio Image"
               captionText="Portfolio Work"
               containerHeight="400px"
@@ -70,18 +70,17 @@ export default function About() {
                   scrollEnd="bottom top+=20%"
                   stagger={0.05}
                 >
-                  " I started with curiosity, not code. From designing magazine
-                  covers to building neural networks, my work reflects both
-                  logic and emotion. I believe creativity thrives at the
-                  intersection of art and technology. Every project is a chance
-                  to blend thoughtful design with purposeful engineering."
+                 "In every line of code, I aim to express purpose. With MERN as my toolkit,
+                  I bring ideas to life—where user interactions feel natural and backend systems
+                   flow seamlessly. My goal isn’t just functionality; it’s creating digital experiences
+                    that feel human."
                 </ScrollReveal>
 
                 {/* Download CV Button (changed to an <a> tag) */}
                 <div className="mt-8 text-center sm:text-left">
                   <a
-                    href="/cv/Anuj_CV.pdf" // Path to your CV in the public folder
-                    download="Anuj_CV.pdf" // The filename for the user
+                    href="public\CV sushil.pdf" // Path to your CV in the public folder
+                    download="SUshil_CV.pdf" // The filename for the user
                     className="inline-flex items-center px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                     style={{ fontFamily: "Bebas Neue, sans-serif" }}
                   >
