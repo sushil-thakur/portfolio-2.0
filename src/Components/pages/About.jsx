@@ -79,7 +79,7 @@ export default function About() {
                 {/* Download CV Button (changed to an <a> tag) */}
                 <div className="mt-8 text-center sm:text-left">
                   <a
-                    href="public\CV sushil.pdf" // Path to your CV in the public folder
+                    href="public/SUshil_CV(1).pdf" // Path to your CV in the public folder
                     download="SUshil_CV.pdf" // The filename for the user
                     className="inline-flex items-center px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                     style={{ fontFamily: "Bebas Neue, sans-serif" }}
