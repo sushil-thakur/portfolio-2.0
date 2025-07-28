@@ -32,94 +32,94 @@ const projectsData = [
   {
     id: 1,
     number: "01",
-    name: "AI Posture Coach for Powerlifting",
+    name: " Food Factory – Full-Stack Food Delivery App",
     description:
-      "A comprehensive real-time posture analysis application for powerlifting exercises using computer vision and machine learning. The system provides live feedback on exercise form for Bench Press, Squat, and Deadlift movements with both webcam analysis and video upload capabilities.",
+     " A responsive full-stack food delivery application where users can browse food items, manage their cart, place orders, and make secure payments via Stripe. Features include user authentication (JWT), order tracking, admin dashboard for managing items and orders, image upload, and real-time status updates.",
     technicalDetails:
-      "Built with Python, Streamlit, MediaPipe, OpenCV, scikit-learn, and PyTorch. Features real-time pose estimation, exercise classification models (benchpress.pkl, squat.pkl, deadlift.pkl), audio feedback system using pygame, and advanced angle calculation algorithms.",
-    mainImage: "/LiftingAss.png",
-    link: "https://github.com/prabinb50/lifting_assisstant",
-    type: "Streamlit Application",
+      "React.js, React Router, Context API, Axios, CSS3, Vite, React Toastify, Node.js, Express.js, MongoDB, Mongoose, JWT, Multer, Stripe API.",
+    mainImage: "public/project 1.png",
+    link: "https://github.com/sushil-thakur/Foof-del",
+    type: "Web Application",
     moreShots: [],
   },
   {
     id: 2,
     number: "02",
-    name: "Deep Learning Hackathon - Image Segmentation for Autonomous Vehicles",
+    name: "EarthSight",
     description:
-      "This repository contains the code for the winning model of the Deep Learning Hackathon focused on image segmentation for autonomous vehicles using supervised learning techniques. Our model leverages advanced neural network architectures to achieve state-of-the-art performance.",
+      "EarthSight is a modern React web application designed to deliver a visually captivating and immersive user experience. Featuring smooth GSAP-powered animations, an interactive image slider, and a responsive layout, the project focuses on combining aesthetics with performance. Ideal for showcasing visual content in a sleek, dynamic environment.",
     technicalDetails:
-      "Built with Python, TensorFlow/PyTorch, implemented U-Net and DeepLab architectures, achieved 95%+ IoU score on validation dataset.",
-    mainImage: "/projects/image-segmentation.jpg",
-    link: "https://github.com/anuz505/deep-learning-hackathon",
-    type: "Jupyter Notebook",
+      "React 19.1.0, Vite 7.0.0, Tailwind CSS 3.4.17, GSAP 3.13.0, React Icons 5.5.0, Clsx, React-use, ESLint",
+    mainImage: "public/project 2.png",
+    link: "https://github.com/sushil-thakur/environment-frontend-using-GSAP",
+    type: "web Application",
     moreShots: [],
   },
   {
     id: 3,
     number: "03",
-    name: "Receipt Reader",
+    name: "Mental Health Awarness",
     description:
-      "This repository contains a simple receipt reader that utilizes tesseract to extract text data and gemini api to generate the json data. A practical application for digitizing and processing receipt information automatically.",
+      "A responsive and user-focused website dedicated to promoting mental health awareness, breaking stigma, and connecting individuals with reliable support resources. The platform includes sections on mental health education, personal blogs, professional guidance, and a chatbot for instant help—designed to create a safe and empathetic digital space.",
     technicalDetails:
-      "Python, Tesseract OCR, Gemini API integration, JSON data processing, image preprocessing with OpenCV.",
-    mainImage: "/projects/receipt-reader.jpg",
-    link: "https://github.com/anuz505/Reciept-Reader",
-    type: "Jupyter Notebook",
+      "HTML5, CSS3, JavaScript, Chatbot Integration (custom scripts), Responsive Design, Multimedia Support (Images & Videos)",
+    mainImage: "public/project 3.png",
+    link: "https://github.com/sushil-thakur/mental-health",
+    type: "Web Application",
     moreShots: [],
   },
   {
     id: 4,
     number: "04",
-    name: "Micrograd",
+    name: " Employee Task Management System (ETMS)",
     description:
-      "Andrej Karpathy's micrograd from scratch. This helped me understand Neural Networks better than ever before. A minimal implementation of automatic differentiation and neural network training.",
+      "The Employee Task Management System (ETMS) is a web-based platform that streamlines employee-task coordination and system administration. Admins can manage employee records, assign and edit tasks, monitor progress, and handle salary details. Employees can log in to track assigned tasks, view notifications, and update task statuses. The system includes secure authentication features, password recovery, and a structured admin/employee panel for effective role-based interaction.",
     technicalDetails:
-      "Pure Python implementation, automatic differentiation engine, backpropagation from scratch, educational neural network framework.",
-    mainImage: "/projects/micrograd.jpg",
-    link: "https://github.com/anuz505/micrograd",
-    type: "Jupyter Notebook",
+      "PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap, SQL (db.sql), PDO for secure DB operations, Session & Cookie management, AJAX, JSON, and server-side validation.",
+    mainImage: "public/project 4.png",
+    link: "https://github.com/sushil-thakur/Employee-Management-System",
+    type: "Web Application",
     moreShots: [],
   },
-  {
-    id: 5,
-    number: "05",
-    name: "Sentence Completion using Word2Vec and LSTM",
-    description:
-      "I built this project to understand sequence-to-one learning, how to use pre-trained embeddings in NLP tasks, and how to train LSTM networks for language modeling. Implements advanced NLP techniques for text completion.",
-    technicalDetails:
-      "Word2Vec embeddings, LSTM neural networks, TensorFlow/Keras, sequence modeling, natural language processing.",
-    mainImage: "/Sentence_completion.png",
-    link: "https://github.com/anuz505/Sentence-Completion-using-Word2Vec-and-LSTM",
-    type: "Jupyter Notebook",
-    moreShots: [],
-  },
-  {
-    id: 6,
-    number: "06",
-    name: "RNN from Scratch",
-    description:
-      "Implementation of Recurrent Neural Networks from scratch to understand the fundamentals of sequence modeling and temporal data processing. Built without using high-level frameworks.",
-    technicalDetails:
-      "Pure Python/NumPy implementation, vanilla RNN architecture, gradient computation, sequence processing, educational implementation.",
-    mainImage: "/RNN.webp",
-    link: "https://github.com/anuz505/RNN-from-scratch",
-    type: "Jupyter Notebook",
-    moreShots: [],
-  },
-  {
-    id: 7,
-    number: "07",
-    name: "English to French Translation - seq2seq LSTM",
-    description:
-      "A sequence-to-sequence model using LSTM networks for English to French translation. Implements encoder-decoder architecture with attention mechanisms for neural machine translation.",
-    technicalDetails:
-      "Seq2seq architecture, LSTM encoder-decoder, attention mechanism, TensorFlow/Keras, machine translation, multilingual NLP.",
-    mainImage: "/projects/translation.jpg",
-    link: "https://github.com/anuz505/English-to-French-Translation-seq2seq-LSTM",
-    type: "Jupyter Notebook",
-    moreShots: [],
-  },
+  // {
+  //   id: 5,
+  //   number: "05",
+  //   name: "Sentence Completion using Word2Vec and LSTM",
+  //   description:
+  //     "I built this project to understand sequence-to-one learning, how to use pre-trained embeddings in NLP tasks, and how to train LSTM networks for language modeling. Implements advanced NLP techniques for text completion.",
+  //   technicalDetails:
+  //     "Word2Vec embeddings, LSTM neural networks, TensorFlow/Keras, sequence modeling, natural language processing.",
+  //   mainImage: "/Sentence_completion.png",
+  //   link: "https://github.com/anuz505/Sentence-Completion-using-Word2Vec-and-LSTM",
+  //   type: "Jupyter Notebook",
+  //   moreShots: [],
+  // },
+  // {
+  //   id: 6,
+  //   number: "06",
+  //   name: "RNN from Scratch",
+  //   description:
+  //     "Implementation of Recurrent Neural Networks from scratch to understand the fundamentals of sequence modeling and temporal data processing. Built without using high-level frameworks.",
+  //   technicalDetails:
+  //     "Pure Python/NumPy implementation, vanilla RNN architecture, gradient computation, sequence processing, educational implementation.",
+  //   mainImage: "/RNN.webp",
+  //   link: "https://github.com/anuz505/RNN-from-scratch",
+  //   type: "Jupyter Notebook",
+  //   moreShots: [],
+  // },
+  // {
+  //   id: 7,
+  //   number: "07",
+  //   name: "English to French Translation - seq2seq LSTM",
+  //   description:
+  //     "A sequence-to-sequence model using LSTM networks for English to French translation. Implements encoder-decoder architecture with attention mechanisms for neural machine translation.",
+  //   technicalDetails:
+  //     "Seq2seq architecture, LSTM encoder-decoder, attention mechanism, TensorFlow/Keras, machine translation, multilingual NLP.",
+  //   mainImage: "/projects/translation.jpg",
+  //   link: "https://github.com/anuz505/English-to-French-Translation-seq2seq-LSTM",
+  //   type: "Jupyter Notebook",
+  //   moreShots: [],
+  // },
 ];
 
 export { items, projectsData };
