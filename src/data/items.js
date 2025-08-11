@@ -37,7 +37,7 @@ const projectsData = [
      " A responsive full-stack food delivery application where users can browse food items, manage their cart, place orders, and make secure payments via Stripe. Features include user authentication (JWT), order tracking, admin dashboard for managing items and orders, image upload, and real-time status updates.",
     technicalDetails:
       "React.js, React Router, Context API, Axios, CSS3, Vite, React Toastify, Node.js, Express.js, MongoDB, Mongoose, JWT, Multer, Stripe API.",
-    mainImage: "public/project 1.png",
+    mainImage: "/project 1.png",
     link: "https://github.com/sushil-thakur/Foof-del",
     type: "Web Application",
     moreShots: [],
@@ -50,7 +50,7 @@ const projectsData = [
       "EarthSight is a modern React web application designed to deliver a visually captivating and immersive user experience. Featuring smooth GSAP-powered animations, an interactive image slider, and a responsive layout, the project focuses on combining aesthetics with performance. Ideal for showcasing visual content in a sleek, dynamic environment.",
     technicalDetails:
       "React 19.1.0, Vite 7.0.0, Tailwind CSS 3.4.17, GSAP 3.13.0, React Icons 5.5.0, Clsx, React-use, ESLint",
-    mainImage: "public/project 2.png",
+    mainImage: "/project 2.png",
     link: "https://github.com/sushil-thakur/environment-frontend-using-GSAP",
     type: "web Application",
     moreShots: [],
@@ -63,7 +63,7 @@ const projectsData = [
       "A responsive and user-focused website dedicated to promoting mental health awareness, breaking stigma, and connecting individuals with reliable support resources. The platform includes sections on mental health education, personal blogs, professional guidance, and a chatbot for instant help—designed to create a safe and empathetic digital space.",
     technicalDetails:
       "HTML5, CSS3, JavaScript, Chatbot Integration (custom scripts), Responsive Design, Multimedia Support (Images & Videos)",
-    mainImage: "public/project 3.png",
+    mainImage: "/project 3.png",
     link: "https://github.com/sushil-thakur/mental-health",
     type: "Web Application",
     moreShots: [],
@@ -76,7 +76,7 @@ const projectsData = [
       "The Employee Task Management System (ETMS) is a web-based platform that streamlines employee-task coordination and system administration. Admins can manage employee records, assign and edit tasks, monitor progress, and handle salary details. Employees can log in to track assigned tasks, view notifications, and update task statuses. The system includes secure authentication features, password recovery, and a structured admin/employee panel for effective role-based interaction.",
     technicalDetails:
       "PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap, SQL (db.sql), PDO for secure DB operations, Session & Cookie management, AJAX, JSON, and server-side validation.",
-    mainImage: "public/project 4.png",
+    mainImage: "/project 4.png",
     link: "https://github.com/sushil-thakur/Employee-Management-System",
     type: "Web Application",
     moreShots: [],
