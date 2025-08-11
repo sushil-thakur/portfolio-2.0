@@ -30,16 +30,16 @@ export default function About() {
       <div className="container flex flex-col md:flex-row px-4 md:pl-8 lg:pl-16 gap-4 md:gap-8">
         {/* Portfolio Image Section (Left Side) */}
         <div className="portfolio-section w-full md:min-w-[40vw] lg:min-w-[50vw] min-h-[60vh] md:h-screen flex items-center justify-center bg-white">
-          <div className="w-full max-w-lg md:max-w-none">
+          <div className="bento-card-container w-full max-w-lg md:max-w-none">
             <TiltedCard
-              imageSrc="public\photo.png"
+              imageSrc="https://images.squarespace-cdn.com/content/v1/523747a5e4b0bfc1675bd7b4/1485794243330-LAWXWC3LS5DF60YKHOJG/unnamed.jpg?format=1500w"
               altText="Portfolio Image"
               captionText="Portfolio Work"
               containerHeight="400px"
               containerWidth="100%"
               imageHeight="120%"
               imageWidth="100%"
-              rotateAmplitude={5}
+              rotateAmplitude={8}
               scaleOnHover={1.05}
               showMobileWarning={false}
               showTooltip={false}
@@ -70,10 +70,10 @@ export default function About() {
                   scrollEnd="bottom top+=20%"
                   stagger={0.05}
                 >
-                 "In every line of code, I aim to express purpose. With MERN as my toolkit,
-                  I bring ideas to life—where user interactions feel natural and backend systems
-                   flow seamlessly. My goal isn’t just functionality; it’s creating digital experiences
-                    that feel human."
+                  "In every line of code, I aim to express purpose. With MERN as my
+                  toolkit, I bring ideas to life—where user interactions feel natural
+                  and backend systems flow seamlessly. My goal isn’t just functionality;
+                  it’s creating digital experiences that feel human."
                 </ScrollReveal>
 
                 {/* Download CV Button (changed to an <a> tag) */}
@@ -102,6 +102,25 @@ export default function About() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Image Gallery Section */}
+          <div className="image-gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-8 px-4">
+            <img
+              src="/images/try.png"
+              alt="Gallery Image"
+              className="w-full h-40 object-cover rounded-lg"
+            />
+            <img
+              src="/images/try.png"
+              alt="Gallery Image"
+              className="w-full h-40 object-cover rounded-lg"
+            />
+            <img
+              src="/images/try.png"
+              alt="Gallery Image"
+              className="w-full h-40 object-cover rounded-lg"
+            />
           </div>
         </div>
       </div>
