@@ -81,19 +81,19 @@ const projectsData = [
     type: "Web Application",
     moreShots: [],
   },
-  // {
-  //   id: 5,
-  //   number: "05",
-  //   name: "Sentence Completion using Word2Vec and LSTM",
-  //   description:
-  //     "I built this project to understand sequence-to-one learning, how to use pre-trained embeddings in NLP tasks, and how to train LSTM networks for language modeling. Implements advanced NLP techniques for text completion.",
-  //   technicalDetails:
-  //     "Word2Vec embeddings, LSTM neural networks, TensorFlow/Keras, sequence modeling, natural language processing.",
-  //   mainImage: "/Sentence_completion.png",
-  //   link: "https://github.com/anuz505/Sentence-Completion-using-Word2Vec-and-LSTM",
-  //   type: "Jupyter Notebook",
-  //   moreShots: [],
-  // },
+  {
+    id: 5,
+    number: "05",
+    name: "Atoms Gaming Homepage ",
+    description:
+      "A modern single-page application built with React 19 and Vite 7, designed to display gaming-related featured content, recommendations, and latest news in an engaging, responsive layout. Styled with Tailwind CSS v4 for fast, utility-first design, and structured with reusable, modular components.",
+    technicalDetails:
+      "React 19, Tailwind Css, React Icon.",
+    mainImage: "/project 5.png",
+    link: "https://github.com/sushil-thakur/Atom-Gaming",
+    type: "Web Application",
+    moreShots: [],
+  },
   // {
   //   id: 6,
   //   number: "06",
