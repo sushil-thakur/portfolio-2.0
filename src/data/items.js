@@ -57,7 +57,7 @@ const projectsData = [
   },
   {
     id: 3,
-    number: "03",
+    number: "06",
     name: "Mental Health Awarness",
     description:
       "A responsive and user-focused website dedicated to promoting mental health awareness, breaking stigma, and connecting individuals with reliable support resources. The platform includes sections on mental health education, personal blogs, professional guidance, and a chatbot for instant help—designed to create a safe and empathetic digital space.",
@@ -76,7 +76,7 @@ const projectsData = [
       "The Employee Task Management System (ETMS) is a web-based platform that streamlines employee-task coordination and system administration. Admins can manage employee records, assign and edit tasks, monitor progress, and handle salary details. Employees can log in to track assigned tasks, view notifications, and update task statuses. The system includes secure authentication features, password recovery, and a structured admin/employee panel for effective role-based interaction.",
     technicalDetails:
       "PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap, SQL (db.sql), PDO for secure DB operations, Session & Cookie management, AJAX, JSON, and server-side validation.",
-    mainImage: "/project 4.png",
+    mainImage: "/project 6.png",
     link: "https://github.com/sushil-thakur/Employee-Management-System",
     type: "Web Application",
     moreShots: [],
@@ -94,19 +94,19 @@ const projectsData = [
     type: "Web Application",
     moreShots: [],
   },
-  // {
-  //   id: 6,
-  //   number: "06",
-  //   name: "RNN from Scratch",
-  //   description:
-  //     "Implementation of Recurrent Neural Networks from scratch to understand the fundamentals of sequence modeling and temporal data processing. Built without using high-level frameworks.",
-  //   technicalDetails:
-  //     "Pure Python/NumPy implementation, vanilla RNN architecture, gradient computation, sequence processing, educational implementation.",
-  //   mainImage: "/RNN.webp",
-  //   link: "https://github.com/anuz505/RNN-from-scratch",
-  //   type: "Jupyter Notebook",
-  //   moreShots: [],
-  // },
+  {
+    id: 6,
+    number: "06",
+    name: "Legal Buddy",
+    description:
+      "The Legal Notice Assistant is a privacy-first web app that helps users understand legal or court notices. Users can upload an image or PDF, and the system extracts the text using OCR before passing it to an AI chatbot for explanation. The assistant guides users on what the notice means, what actions to take, and what to avoid, while also allowing follow-up questions through a simple chat interface. Built as an MVP using React.js, Node.js, Express, OCR.space API, Grok API, and Multer, the project focuses on real-time processing without storing user data.",
+    technicalDetails:
+      "React, OCR API, GROK API",
+    mainImage: "/RNN.webp",
+    link: "https://github.com/sushil-thakur/Legal-Buddy",
+    type: "Web Application",
+    moreShots: [],
+  },
   // {
   //   id: 7,
   //   number: "07",
