@@ -76,7 +76,7 @@ const projectsData = [
       "The Employee Task Management System (ETMS) is a web-based platform that streamlines employee-task coordination and system administration. Admins can manage employee records, assign and edit tasks, monitor progress, and handle salary details. Employees can log in to track assigned tasks, view notifications, and update task statuses. The system includes secure authentication features, password recovery, and a structured admin/employee panel for effective role-based interaction.",
     technicalDetails:
       "PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap, SQL (db.sql), PDO for secure DB operations, Session & Cookie management, AJAX, JSON, and server-side validation.",
-    mainImage: "/project 6.png",
+    mainImage: "/project 4.png",
     link: "https://github.com/sushil-thakur/Employee-Management-System",
     type: "Web Application",
     moreShots: [],
@@ -102,7 +102,7 @@ const projectsData = [
       "The Legal Notice Assistant is a privacy-first web app that helps users understand legal or court notices. Users can upload an image or PDF, and the system extracts the text using OCR before passing it to an AI chatbot for explanation. The assistant guides users on what the notice means, what actions to take, and what to avoid, while also allowing follow-up questions through a simple chat interface. Built as an MVP using React.js, Node.js, Express, OCR.space API, Grok API, and Multer, the project focuses on real-time processing without storing user data.",
     technicalDetails:
       "React, OCR API, GROK API",
-    mainImage: "/RNN.webp",
+    mainImage: "/project 6.png",
     link: "https://github.com/sushil-thakur/Legal-Buddy",
     type: "Web Application",
     moreShots: [],
