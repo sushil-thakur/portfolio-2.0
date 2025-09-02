@@ -115,7 +115,7 @@ const projectsData = [
       "Developed a full-stack real-time chat and video communication platform using React (Vite), Express.js, and MongoDB. Implemented background user synchronization with Inngest and integrated end-to-end error tracking via Sentry across both frontend and backend. The application was securely deployed on Vercel with proper CORS configuration to ensure safe and reliable cross-origin requests.",
     technicalDetails:
       "React.js, Node.js, Express, MongoDB, Stripe, JWT, Multer, Vite, Context API, Axios",
-    mainImage: "/project7.jpg",
+    mainImage: "/project7.png",
     link: "https://github.com/sushil-thakur/Chat-hub",
     type: "Web Application",
     moreShots: [],
