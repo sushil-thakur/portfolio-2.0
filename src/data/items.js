@@ -107,19 +107,19 @@ const projectsData = [
     type: "Web Application",
     moreShots: [],
   },
-  // {
-  //   id: 7,
-  //   number: "07",
-  //   name: "English to French Translation - seq2seq LSTM",
-  //   description:
-  //     "A sequence-to-sequence model using LSTM networks for English to French translation. Implements encoder-decoder architecture with attention mechanisms for neural machine translation.",
-  //   technicalDetails:
-  //     "Seq2seq architecture, LSTM encoder-decoder, attention mechanism, TensorFlow/Keras, machine translation, multilingual NLP.",
-  //   mainImage: "/projects/translation.jpg",
-  //   link: "https://github.com/anuz505/English-to-French-Translation-seq2seq-LSTM",
-  //   type: "Jupyter Notebook",
-  //   moreShots: [],
-  // },
+  {
+    id: 7,
+    number: "07",
+    name: "chatHub — Slack-like Full-Stack Chat App",
+    description:
+      "Developed a full-stack real-time chat and video communication platform using React (Vite), Express.js, and MongoDB. Implemented background user synchronization with Inngest and integrated end-to-end error tracking via Sentry across both frontend and backend. The application was securely deployed on Vercel with proper CORS configuration to ensure safe and reliable cross-origin requests.",
+    technicalDetails:
+      "React.js, Node.js, Express, MongoDB, Stripe, JWT, Multer, Vite, Context API, Axios",
+    mainImage: "/project7.jpg",
+    link: "https://github.com/sushil-thakur/Chat-hub",
+    type: "Web Application",
+    moreShots: [],
+  },
 ];
 
 export { items, projectsData };
